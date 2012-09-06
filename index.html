@@ -9,34 +9,40 @@
 </head>
 <body>
 
+<header>
 
-<h1>Ben Del Vacchio</h1>
-<p>Hello!  This is a personal website where I can practice being a developer while I look for a job near where I live.</p>
+    <h1>Ben Del Vacchio</h1>
 
-<p>The first thing I'm going to do is document the process of setting up this site.
-First I log into the domain administration tool for 1and1, my hosting provider.  
-I create a new 'ben' subdomain for an existing 'delvacchio.com' domain (which currently redirects to my brother's landscaping & garden center website).
-Next we pull up our old friend Transmit and create an 'index.html' file and an empty style sheet and a very basic website upon which to build more.
-We take a screenshot of this version and upload it to the 'images' directory.
-</p>
+</header>
 
-<p>
-Since I've used CVS and Subversion to collaborate on projects in the past, I'm going to save myself a lot of potential future grief by planning on this site expanding beyond my current plans by incorporating version control at the beginning.
-The current preferred solution is 'git', so I'll be using 'github' to manage my code.
-</p>
+<div id="content">
 
-<p>And if this is visible, then it's working!  Yup.  That's a good feeling.  So what we're doing is editing files locally, committing them to github, and pulling them down onto the server.
-That may seem excessive for a site that currently has 11 files, and does mean I need to spend about 20 minutes setting up Apache locally if I decide to use PHP for a back-end.  It also means I can track past revision online in my <a href="https://github.com/Delvach/ben-delvacchio">github repository</a>.</p>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Resume</li>
+            <li>Portfolio</li>
+            <li>Hobbies</li>
+        </ul>
+    </nav>
+
+    <div id="alpha">
+    
+        <p>Hello!  This is a personal website where I can practice being a developer while I look for a job near where I live.</p>
+        
+    </div>
+    
+    
 
 
-<nav>
-	<ul>
-		<li>Home</li>
-		<li>Work</li>
-		<li>Play</li>
+</div>
+
+<footer>
+    <ul>
+		<li><a href="https://github.com/Delvach/ben-delvacchio">github</a></li>
+		<li><a href="http://facebook.com/delvach">Facebook</a></li>
 	</ul>
-</nav>
-
+</footer>
 
 </body>
 </html>
