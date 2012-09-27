@@ -1,13 +1,13 @@
 <? 
 
-$PAGE_ID = 'home';
+$PAGE_ID = 'about';
 
 include("lib/header.inc"); ?>
 
 <section>
 
     
-    <p>Welcome to the skeletal version of my personal website.</p>
+    <p>404 Error.  For now.</p>
     
 
 </section>

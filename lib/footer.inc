@@ -8,5 +8,11 @@
 	</ul>
 </footer>
 
+<script>
+
+initialize();
+
+</script>
+
 </body>
 </html>

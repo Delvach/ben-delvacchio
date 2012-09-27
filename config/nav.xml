@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<xml>
+    <navigation>
+        <section>
+            <id>home</id>
+            <title>Home</title>
+            <url>/</url>
+        </section>
+    
+        <section>
+            <id>career</id>
+            <title>Career</title>
+            <url>/career.php</url>
+        </section>
+        
+        <section>
+            <id>blog</id>
+            <title>Blog</title>
+            <url>/blog.php</url>
+        </section>
+        
+        <section>
+            <id>about</id>
+            <title>About</title>
+            <url>/about.php</url>
+        </section>
+    </navigation>
+    
+    <status>Working!</status>
+</xml>
