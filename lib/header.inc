@@ -38,7 +38,9 @@ var data = {
 <body class="page-<? echo $PAGE_ID; ?>">
 
 <header>
-
+    
+    <h1>Ben Del Vacchio</h1>
+    
     <nav>
         <ul id="nav_container"></ul>
     </nav>

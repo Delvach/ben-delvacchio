@@ -8,9 +8,9 @@
         </section>
     
         <section>
-            <id>career</id>
-            <title>Career</title>
-            <url>/career.php</url>
+            <id>resume</id>
+            <title>Resume</title>
+            <url>/resume.php</url>
         </section>
         
         <section>

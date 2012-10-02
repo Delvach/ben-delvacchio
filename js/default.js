@@ -15,7 +15,7 @@ function initialize() {
 
 /**
  *  Generate navigation HTML using previously parsed data
- */
+ */ 
 function generate_navigation() {
     var container = $('#nav_container');
     var li, anchor;

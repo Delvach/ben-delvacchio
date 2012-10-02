@@ -4,8 +4,8 @@ $PAGE_ID = 'blog';
 
 include("lib/header.inc"); ?>
 
-<section id="content">
-
+<section>
+    <h1>Blog</h1>
     
     <article>
         <time datetime="2012-09-26">September 26, 2012</time>

@@ -14,28 +14,35 @@ body {
     padding: 0px;
 }
 
+
+/**
+ *  Default styles
+ 
+h2 {
+    font-size: 100%;
+}
+*/
+
+/**
+ *  HEADER
+ */
+
 header {
     /*background-color: rgb(128,0,0);*/
     border-bottom: 1px solid black;
-    background: url(/images/header_bg.jpg) no-repeat center 0;
+    /*background: url(/images/header_bg.jpg) no-repeat center 0;*/
     height: 150px;
     position: relative;
 }
 
-.page-home section {
-
+header h1 {
+    position: absolute:
 }
 
-.page-blog section {
 
-}
-
-section {
-    float: center;
-    margin: 100px 50px 100px 50px;
-    width: 800px;
-}
-
+/**
+ *  NAVIGATION
+ */
 
 nav {
     bottom: 10px;
@@ -51,7 +58,6 @@ nav ul {
 }
 
 nav li {
-    color: white;
     float: left;
     margin: 4px 2px 4px 20px;
     list-style: none;
@@ -63,9 +69,70 @@ nav li + li {
 }
 
 nav li a {
-    color: white;
+    
 }
 
+
+
+
+/**
+ *  MAIN CONTENT AREA
+ */
+
+section {
+    padding: 20px 100px 80px 200px;
+}
+
+
+.page-home section {
+
+}
+
+.page-blog section {
+
+}
+
+
+section article {
+    margin: 20px 0 20px 0;
+}
+
+
+
+/**
+ *  RESUME
+ */
+
+body.page-resume h2 {
+    font-size: 100%;
+}
+
+body.page-resume h3 {
+    font-size: 80%;
+}
+
+body.page-resume p, body.page-resume li {
+    font-size: 90%;
+}
+
+
+/**
+ *  BLOG
+ */
+
+body.page-blog {
+    
+}
+
+body.page-blog article {
+      
+}
+
+
+
+/**
+ *  FOOTER
+ */
 footer {
     clear: both;
     margin-top: 0px;
@@ -81,16 +148,4 @@ footer li {
     float: left;
     list-style: none;
     margin: 2px 0px 0px 20px;
-}
-
-/**
- *  BLOG STYLES
- */
-
-body.page-blog {
-    
-}
-
-body.page-blog article {
-      
 }
