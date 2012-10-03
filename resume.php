@@ -5,12 +5,10 @@ $PAGE_ID = 'resume';
 include("lib/header.inc"); ?>
 
 <section>
-
-    <h1>Ben Del Vacchio</h1>
     
     <article>
     
-        <h1>Summary</h1>
+        <h2>Summary</h2>
         
         <p>
         Seasoned web developer specializing in front-end technologies emphasizing on interaction, 
@@ -37,11 +35,11 @@ include("lib/header.inc"); ?>
     
     <article>
     
-        <h1>Professional Experience</h1>
+        <h2>Professional Experience</h2>
         
-        <h2>Comcast Cable, Inc., Philadelphia, PA (2006 - 2011)</h2>
+        <h3>Comcast Cable, Inc., Philadelphia, PA (2006 - 2011)</h3>
         
-        <h3>Senior Web Developer, Comcast Interactive Media</h3>
+        <h4>Senior Web Developer, Comcast Interactive Media</h4>
         
         <p>
         Responsibilities included content creation and issue resolution on comcast.net through daily
@@ -54,11 +52,11 @@ include("lib/header.inc"); ?>
         broad range of projects including micro sites, prototype projects, advertising, and extensive JavaScript work.
         </p>
         
-        <h2>Versatile Systems Inc., Mechanicsburg, PA (2000 - 2006)</h2>
+        <h3>Versatile Systems Inc., Mechanicsburg, PA (2000 - 2006)</h3>
         
         <p><em>Formerly Perfect Order, Inc.</em></p>
         
-        <h3>Consultant, Comcast Interactive Media (2004 - 2006)</h3>
+        <h4>Consultant, Comcast Interactive Media (2004 - 2006)</h4>
         
         <p>
         Developed and refined various sections of customer-facing portal using HTML and CSS.  
@@ -67,7 +65,7 @@ include("lib/header.inc"); ?>
         Duties included sole responsibility for prototyping and developing dynamic JavaScript-based (AJAX) TV Planner.
         </p>
         
-        <h3>Software Developer/Graphic Artist (2000 - 2004)</h3>
+        <h4>Software Developer/Graphic Artist (2000 - 2004)</h4>
         
         <p>
         Designed, created and enhanced PHP applications within web-based software framework.  
@@ -86,9 +84,9 @@ include("lib/header.inc"); ?>
             <li>Developed custom online store solution using PHP &amp; MySQL</li>
         </ul>
         
-        <h2>Manchester, Inc., Berwyn, PA  (1999 - 2000)</h2>
+        <h3>Manchester, Inc., Berwyn, PA  (1999 - 2000)</h3>
         
-        <h3>Word Processor</h3>
+        <h4>Word Processor</h4>
         
         <p>
         Provided administrative assistance in service-oriented environment; drafted, scanned and revised 
@@ -96,16 +94,16 @@ include("lib/header.inc"); ?>
         Traveled between five regional offices to install, upgrade and troubleshoot computers.
         </p>
         
-        <h2>West Chester University, West Chester, PA  (1998)</h2>
+        <h3>West Chester University, West Chester, PA  (1998)</h3>
         
-        <h3>Technical Writer (Part time)</h3>
+        <h4>Technical Writer (Part time)</h4>
         
         <p>Revised procedure documentation for campus mainframe systems, documented server installation and setup.</p>
         
         
-        <h2>Wyeth-Ayerst Pharmaceuticals, St. Davids, PA (1997)</h2>
+        <h3>Wyeth-Ayerst Pharmaceuticals, St. Davids, PA (1997)</h3>
         
-        <h3>Intern, Public Relations Department</h3>
+        <h4>Intern, Public Relations Department</h4>
         
         <p>
         Researched, drafted and edited press releases, new product backgrounders, trade magazine articles, 
@@ -120,9 +118,9 @@ include("lib/header.inc"); ?>
     
     <article>
     
-        <h1>EDUCATION</h1>
+        <h2>EDUCATION</h2>
         
-        <h2>BA English, Professional Writing - 1998</h2>
+        <h3>BA English, Professional Writing - 1998</h3>
         <p>Kutztown University, Kutztown, PA</p>
         
         <ul>

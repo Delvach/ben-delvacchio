@@ -5,7 +5,7 @@ $PAGE_ID = 'blog';
 include("lib/header.inc"); ?>
 
 <section>
-    <h1>Blog</h1>
+    <h2>Blog</h2>
     
     <article>
         <time datetime="2012-09-26">September 26, 2012</time>
@@ -29,10 +29,15 @@ include("lib/header.inc"); ?>
         my day we manipulated the <abbr title="Document Object Model">DOM</abbr> manually, and we
         liked it!.  Well that takes care of the skeletal infrastructure, and I've even added
         library support for IE versions below 9.  Guess now I need to add some real content and
-        developing a pretty look & feel for everything.</p>
+        start developing a pretty look &amp; feel for everything.</p>
         
     </article>
 
+    <article>
+        <time datetime="2012-10-03">October 3, 2012</time>
+        <p>I've stabilized a basic appearance for the header.</p>
+    
+    </article>
 
 </section>
 

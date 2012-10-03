@@ -3,6 +3,11 @@ if(!isset($PAGE_ID)) {
     $PAGE_ID = 'home';
 }
 
+if(!isset($TEMPLATE_ID)) {
+    $TEMPLATE_ID = 'basic1';
+}
+
+
 
 ?>
 <!DOCTYPE html>
@@ -10,7 +15,8 @@ if(!isset($PAGE_ID)) {
     <head>
     <title>Ben Del Vacchio</title>
 
-    <link rel="stylesheet" href="/css/default.css" type="text/css" />
+    <? /* <link rel="stylesheet" href="/css/default.css" type="text/css" /> */ ?>
+    <link rel="stylesheet" href="/css/<? echo $TEMPLATE_ID; ?>.css" type="text/css" />
     
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->
     

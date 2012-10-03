@@ -5,10 +5,10 @@ $PAGE_ID = 'about';
 include("lib/header.inc"); ?>
 
 <section>
-    <h1>About Ben</h1>
+    <h2>About Ben</h2>
     
     <article>
-        <h1>History</h1>
+        <h3>History</h3>
         
         <p>Ben was born in Broomall, PA in 1974.</p>
         
@@ -57,19 +57,20 @@ include("lib/header.inc"); ?>
         
     </article>
     -->
+    
     <article>
-    <h1>About This Site</h1>
-    
-    <p>This site is in the process of being developed from scratch.  It is intended to be a platform
-    with which to demonstrate my abilities as a web developer, and to provde me a scratchbox
-    where I can experiment with various projects.</p>
-    
-    <p>It uses just enough PHP to provide consistency among the current pages and allow for some
-    scalability.  Some data (currently only navigation) is stored as .xml and parsed via the xml2json 
-    extension for jQuery.</p>
-    
-    <p>The current infrastructure is designed to be simple, as my current focus is honing my
-    HTML5, CSS3 and jQuery skills.</p>
+        <h3>About This Site</h3>
+        
+        <p>This site is in the process of being developed from scratch.  It is intended to be a platform
+        with which to demonstrate my abilities as a web developer, and to provde me a scratchbox
+        where I can experiment with various projects.</p>
+        
+        <p>It uses just enough PHP to provide consistency among the current pages and allow for some
+        scalability.  Some data (currently only navigation) is stored as .xml and parsed via the xml2json 
+        extension for jQuery.</p>
+        
+        <p>The current infrastructure is designed to be simple, as my current focus is honing my
+        HTML5, CSS3 and jQuery skills.</p>
     </article>
 </section>
 

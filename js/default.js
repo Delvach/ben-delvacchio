@@ -26,6 +26,7 @@ function generate_navigation() {
     for(var i=0;i<data.nav.navigation.section.length;i++) {
         li = document.createElement('li');
         if(data.nav.navigation.section[i].id == data.page.id) {
+            li.className = 'active';
             li.innerHTML = data.nav.navigation.section[i].title;
         } else {
             anchor = document.createElement('a');
