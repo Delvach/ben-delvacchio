@@ -20,12 +20,20 @@ function generate_navigation() {
     var container = $('#nav_container');
     var li, anchor;
     
+    // Loop through nav data and generate <li> tags
+    // Only generate anchors if NOT on the current page
+    // TODO - update this behavior if contextual CSS menus are implemented
     for(var i=0;i<data.nav.navigation.section.length;i++) {
         li = document.createElement('li');
-        anchor = document.createElement('a');
-        li.appendChild(anchor);
-        anchor.innerHTML = data.nav.navigation.section[i].title;
-        if(data.nav.navigation.section[i].id != data.page.id) anchor.href = data.nav.navigation.section[i].url;
+        if(data.nav.navigation.section[i].id == data.page.id) {
+            li.innerHTML = data.nav.navigation.section[i].title;
+        } else {
+            anchor = document.createElement('a');
+            li.appendChild(anchor);
+            anchor.innerHTML = data.nav.navigation.section[i].title;
+            anchor.href = data.nav.navigation.section[i].url;
+        }
+        
         container.append(li);
     }
 }

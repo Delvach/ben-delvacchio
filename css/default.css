@@ -8,9 +8,11 @@ html {
 }
 
 body {
+    background-color: rgb(204,204,204);
     
     font-family: Verdana, Arial, Helvetica;
     margin: 0px;
+    
     padding: 0px;
 }
 
@@ -28,15 +30,22 @@ h2 {
  */
 
 header {
-    /*background-color: rgb(128,0,0);*/
-    border-bottom: 1px solid black;
+    background: url(/images/basic1/body-background.jpg) repeat-x top center;
     /*background: url(/images/header_bg.jpg) no-repeat center 0;*/
     height: 150px;
+    margin: 0 0;
     position: relative;
 }
 
 header h1 {
-    position: absolute:
+    background: url(/images/basic1/header-background.jpg) repeat-x top center;
+    height: 150px;
+    margin: 0 auto; 
+    padding: 0;
+    text-indent: -9999px;
+    top: 0px;
+    width: 800px;
+    
 }
 
 
@@ -45,16 +54,18 @@ header h1 {
  */
 
 nav {
-    bottom: 10px;
+    bottom: 0px;
     height: 30px;
-    left: 10px;
-    margin-left: 5%;
-    position: absolute;
-    width: 90%;
+    margin: -30px auto 0 auto;
+    padding: 0;
+    position: relative;
+    width: 800px;
 }
 
 nav ul {
     height: 30px;
+    margin: 0;
+    padding: 0px;
 }
 
 nav li {
@@ -69,7 +80,8 @@ nav li + li {
 }
 
 nav li a {
-    
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -80,12 +92,15 @@ nav li a {
  */
 
 section {
-    padding: 20px 100px 80px 200px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 800px;
 }
 
 
 .page-home section {
-
+    height: 600px;
 }
 
 .page-blog section {
@@ -94,7 +109,7 @@ section {
 
 
 section article {
-    margin: 20px 0 20px 0;
+    margin: 20px;
 }
 
 
@@ -103,15 +118,15 @@ section article {
  *  RESUME
  */
 
-body.page-resume h2 {
+body.page-resume section h2 {
     font-size: 100%;
 }
 
-body.page-resume h3 {
+body.page-resume section h3 {
     font-size: 80%;
 }
 
-body.page-resume p, body.page-resume li {
+body.page-resume section p, body.page-resume section li {
     font-size: 90%;
 }
 

@@ -7,7 +7,7 @@ include("lib/header.inc"); ?>
 <section>
 
     <article>
-        <h1>Welcome</h1>
+        <h2>Welcome</h2>
         
         <p>Hello!  This is the website and personal <abbr title="Hyper Text Transfer Protocol">HTML</abbr>,
         JavaScript and <abbr title="Cascading Style Sheet">CSS</abbr> sketchbook of
