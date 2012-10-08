@@ -12,7 +12,13 @@
             <title>Resume</title>
             <url>/resume.php</url>
         </section>
-        
+       
+        <section>
+            <id>projects</id>
+            <title>Projects</title>
+            <url>/projects/</url>
+        </section>
+       
         <section>
             <id>blog</id>
             <title>Blog</title>

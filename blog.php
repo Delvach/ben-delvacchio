@@ -1,19 +1,27 @@
 <? 
 
 $PAGE_ID = 'blog';
-
+$KEYWORDS = 'Ben, Del Vacchio, Blog';
 include("lib/header.inc"); ?>
 
 <section>
-    <h2>Blog</h2>
     
     <article>
-        <time datetime="2012-09-26">September 26, 2012</time>
-        <p>This is my the first entry on my blog page.  Eventually I'll migrate this content to .xml,
-        but for now I just need a few additional skeletal pages so I can create the navigation XML
-        and probably use jQuery to parse it and insert navigation elements.</p>
-        
+        <time datetime="2012-10-08">October 8, 2012</time>
+        <p>Started documenting ArduAxisAndAllies on the <a href="/project/">Project</a> page,
+        created a bunch of thumbnails and uploaded linked images.  Started integration of Facebook
+        'Like' button.
+        </p>
+    
     </article>
+    
+    
+    <article>
+        <time datetime="2012-10-03">October 3, 2012</time>
+        <p>I've stabilized a basic appearance for the header.</p>
+    
+    </article>
+    
     
     <article>
         <time datetime="2012-09-27">September 27, 2012</time>
@@ -32,12 +40,17 @@ include("lib/header.inc"); ?>
         start developing a pretty look &amp; feel for everything.</p>
         
     </article>
-
-    <article>
-        <time datetime="2012-10-03">October 3, 2012</time>
-        <p>I've stabilized a basic appearance for the header.</p>
     
+    
+    <article>
+        <time datetime="2012-09-26">September 26, 2012</time>
+        <p>This is my the first entry on my blog page.  Eventually I'll migrate this content to .xml,
+        but for now I just need a few additional skeletal pages so I can create the navigation XML
+        and probably use jQuery to parse it and insert navigation elements.</p>
+        
     </article>
+    
+    
 
 </section>
 

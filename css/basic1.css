@@ -5,24 +5,33 @@
 
 html {
     /*font-size: 62.5%;*/
+    font-size: 90%;
 }
 
 body {
     background-color: rgb(204,204,204);
     
-    font-family: Verdana, Arial, Helvetica;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     
     padding: 0px;
 }
 
+h2 {
+    /*font-size: 1.2em;*/
+    
+}
+
+p {
+    line-height: 140%;
+}
 
 /**
  *  HEADER
  */
 
 header {
-    background: url(/images/basic1/body-background.jpg) repeat-x top center;
+    background: url(/images/basic1/header-background.jpg) repeat-x top center;
     /*background: url(/images/header_bg.jpg) no-repeat center 0;*/
     height: 180px;
     margin: 0 0;
@@ -30,7 +39,7 @@ header {
 }
 
 header h1 {
-    background: url(/images/basic1/header-background.jpg) repeat-x top center;
+    background: url(/images/basic1/header-h1-background.jpg) repeat-x top center;
     height: 150px;
     margin: 0 auto; 
     padding: 0;
@@ -49,7 +58,7 @@ nav {
     background: url(/images/basic1/nav-background.jpg) repeat-x;
     bottom: 0px;
     height: 60px;
-    margin: -30px auto 0 auto;
+    margin: -20px auto 0 auto;
     padding: 0;
     position: relative;
     width: 800px;
@@ -97,6 +106,12 @@ article h2 {
     margin-left: 0px;
 }
 
+img.about, img.default {
+    border: 1px solid black;
+    float: right;
+    margin: 0 20px 0px 10px;
+    padding: 2px;
+}
 
 
 
@@ -116,32 +131,48 @@ section {
     height: 400px;
 }
 
+.page-home article {
+
+}
+
 .page-blog section {
 
 }
 
 
 section article {
-    margin: 20px;
+    margin: 0px;
+    padding: 20px 80px;
 }
-
 
 
 /**
  *  RESUME
-
+ */
 
 body.page-resume section h2 {
-    font-size: 100%;
+    border-bottom: 1px solid #666;
+    color: #666;
+    margin-bottom: 40px;
+    margin-right: 20px;
 }
 
+body.page-resume section p, body.page-resume section li {
+    line-height: 140%;
+}
+
+body.page-resume article {
+ 
+    padding: 0 50px 20px 140px;
+}
+
+
+/*
 body.page-resume section h3 {
     font-size: 80%;
 }
 
-body.page-resume section p, body.page-resume section li {
-    font-size: 90%;
-}
+
  */
 
 /**
@@ -186,4 +217,26 @@ footer li {
 
 li.copyright {
     clear: both;
+}
+
+
+
+/**
+ *  GALLERY
+ */
+article.gallery {
+    padding-top: 30px;
+}
+
+article.gallery img {
+    margin: 25px;
+}
+
+/**
+ *  Facebook
+ */
+ 
+#fb_container {
+    display: none;
+    visibility: hidden;
 }

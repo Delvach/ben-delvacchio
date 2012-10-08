@@ -1,23 +1,29 @@
 <? 
 
 $PAGE_ID = 'resume';
-
+$KEYWORDS = 'Ben, Del Vacchio, resume, resume, summary, experience, professional experience, skills, Comcast, xfinity, CommNav, Perfect Order, Versatile, TV Planner, Television Planner, TVP, Manchester, HTML, JavaScript, Adobe Photoshop, Adobe Illustrator, CSS, HTML5, CSS3';
 include("lib/header.inc"); ?>
 
 <section>
-    
+    <h2>Summary</h2>
     <article>
     
-        <h2>Summary</h2>
+        
         
         <p>
         Seasoned web developer specializing in front-end technologies emphasizing on interaction, 
         accessibility and usability.  Adept at working with business and artistic resources to
         transform concepts and designs into well-formed web documents using minimum code.
         Experienced at working with other developers within collaborative coding environments
-        using version control systems.  Skills include:
+        using version control systems.
         </p>
         
+        
+    </article>
+    
+    <h2>Skills</h2>
+    <article>
+    
         <ul>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -30,14 +36,14 @@ include("lib/header.inc"); ?>
             <li>CVS, Subversion, git</li>
             <li>Microsoft office suite</li>
         </ul>
-        
+    
     </article>
+    
+    <h2>Professional Experience</h2>
     
     <article>
     
-        <h2>Professional Experience</h2>
-        
-        <h3>Comcast Cable, Inc., Philadelphia, PA (2006 - 2011)</h3>
+        <h3>Comcast Cable, Inc., Philadelphia, PA (2006 - 2010)</h3>
         
         <h4>Senior Web Developer, Comcast Interactive Media</h4>
         
@@ -116,9 +122,11 @@ include("lib/header.inc"); ?>
         
     </article>
     
+    <h2>Education</h2>
+    
     <article>
     
-        <h2>EDUCATION</h2>
+        
         
         <h3>BA English, Professional Writing - 1998</h3>
         <p>Kutztown University, Kutztown, PA</p>

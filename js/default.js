@@ -18,7 +18,7 @@ function initialize() {
  */ 
 function generate_navigation() {
     var container = $('#nav_container');
-    var li, anchor;
+    var li, anchor, li_child;
     
     // Loop through nav data and generate <li> tags
     // Only generate anchors if NOT on the current page

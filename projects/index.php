@@ -2,13 +2,39 @@
 
 $PAGE_ID = 'projects';
 $KEYWORDS = 'Ben, Del Vacchio, projects';
-include("../lib/header.inc"); ?>
+include("../lib/header.inc"); 
+
+// Gallery images
+$gallery = array(
+    'original01',
+    'original02',
+    'new_board01',
+    'new_board02',
+    'new_board03',
+    'new_board04',
+    'dev01',
+    'dev02',
+    'dev03',
+    'dev04',
+    'dev05',
+    'dev06',
+    'dev07',
+    'dev08',
+    'dev09',
+    'dev10',
+    'dev11',
+    'dev12',
+    'dev13'
+);
+
+$num_images = count($gallery);
+?>
 
 <section>
-    <h2>ArduAxisAndAllies</h2>
+    
     <article>
-        
-        <img style="float: right;" src="/images/aaa/aa_dogs01.jpg" />
+        <h2>ArduAxisAndAllies</h2>
+        <a href="/images/aaa/aa_dogs01_full.jpg"><img class="default" src="/images/aaa/aa_dogs01.jpg" /></a>
         
         <p>Axis &amp; Allies is a board game that has seen numerous variations over the years.
         Upon learning that a few friends also played A&amp;A in high school we decided to start up
@@ -56,9 +82,29 @@ include("../lib/header.inc"); ?>
         I've got years of experience developing interactives from scratch, this ended up being the
         perfect solution.</p>
         
-        <p></p>
-        
+        <p>I've got a LOT more details to post, but for now here are some pictures!</p>
+
         </p>
+    
+    </article>
+    
+    <article class="gallery">
+
+<?
+    
+    for($i = 0; $i < $num_images; $i++) {
+        echo(
+            "<a href='/images/aaa/" 
+            . $gallery[$i] 
+            . "_full.jpg'><img src='"
+            . "/images/aaa/"
+            . $gallery[$i]
+            . ".jpg' /></a>\n");
+
+    }
+
+
+?>
     
     </article>
     

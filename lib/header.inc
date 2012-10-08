@@ -7,6 +7,9 @@ if(!isset($TEMPLATE_ID)) {
     $TEMPLATE_ID = 'basic1';
 }
 
+if(!isset($KEYWORDS)) {
+    $KEYWORDS = '';
+}
 
 
 ?>
@@ -14,7 +17,7 @@ if(!isset($TEMPLATE_ID)) {
 <html>
     <head>
     <title>Ben Del Vacchio</title>
-
+    <meta name="keywords" content="<? echo $KEYWORDS; ?>">
     <? /* <link rel="stylesheet" href="/css/default.css" type="text/css" /> */ ?>
     <link rel="stylesheet" href="/css/<? echo $TEMPLATE_ID; ?>.css" type="text/css" />
     
@@ -42,8 +45,19 @@ var data = {
     
 </head>
 <body class="page-<? echo $PAGE_ID; ?>">
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <header>
+    
+    <div id="fb_container">
+        <div class="fb-like" data-href="http://ben.delvacchio.com/projects/" data-send="true" data-width="450" data-show-faces="true"></div>
+    </div>
     
     <h1>Ben Del Vacchio</h1>
     
