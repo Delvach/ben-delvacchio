@@ -4,11 +4,9 @@ $PAGE_ID = 'about';
 $KEYWORDS = 'Ben, Del Vacchio, about, Broomall, Kutztown, Newtown Square, College, High School, Audubon, Oaks, Bike, Biking, Cycling, Kayak, Kayaking, Arduino, Electronics, HTML, JavaScript, CSS, jQuery, XML, git';
 include("lib/header.inc"); ?>
 
-<section>
-    <h2>About Ben</h2>
-    
+<section>    
     <article>
-        <h3>History</h3>
+        <h2>History</h2>
         
         <img src="/images/ben/headshot01.jpg" class="about"/>
         
@@ -29,12 +27,15 @@ include("lib/header.inc"); ?>
         <strong>CommNav, Inc.</strong>  He spent several years as a <strong>PHP developer</strong> working on CommNav's web application
         products, providing graphics support, and building JavaScript libraries.</p>
         
+        <img src="/images/ben/books01.jpg" class="books"/>
+        
         <p>In 2004 CommNav was dissolved into its parent company, <strong>Perfect Order</strong>, which was later
         re-named to <strong>Versatile Systems</strong>.  Ben transitioned to the position of <strong>Consultant</strong> and began
         working for <strong>Comcast, Inc.</strong> in <strong>Philadelphia</strong>.  He played a vital role within Comcast's growing
         web &amp; multi-media-focused department, <strong>Comcast Interactive Media</strong>.  While there he was
         regularly responsible for customer-facing web projects.  He spent roughly a year as the
-        principle programmer for <strong>TV Planner</strong>, Comcast's first online TV grid and program guide.
+        principle programmer for <strong>TV Planner</strong>, Comcast's first online <strong>TV grid</strong> 
+        and <strong>program guide</strong>.
         
         <p>Ben was hired as a full-time <strong>Comcast employee</strong> in 2005.  He spent the next
         several years building content and functionality for various aspects of <strong>comcast.net</strong>.</p>
@@ -53,7 +54,7 @@ include("lib/header.inc"); ?>
 
     
     <article>
-        <h3>About This Site</h3>
+        <h2>About This Site</h2>
         
         <p>This site is in the process of being developed from scratch.  It is intended to be a platform
         with which to demonstrate my abilities as a <strong>web developer</strong>, and to provide me a scratchbox
@@ -61,7 +62,7 @@ include("lib/header.inc"); ?>
         
         <p>It uses just enough <strong>PHP</strong> to provide consistency among the current pages and allow for some
         scalability.  Some data (currently only navigation) is stored as <strong>XML</strong> and parsed via the <strong>xml2json</strong> 
-        extension for <strong>jQuery</strong>strong>.</p>
+        extension for <strong>jQuery</strong>.</p>
         
         <p>The current infrastructure is designed to be simple, as my current focus is honing my
         <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>jQuery</strong> skills.</p>

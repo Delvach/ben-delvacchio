@@ -38,7 +38,7 @@ $num_images = count($gallery);
         
         <p>Axis &amp; Allies is a board game that has seen numerous variations over the years.
         Upon learning that a few friends also played A&amp;A in high school we decided to start up
-        a regular gaming session using the new 'Spring 2942' version.</p>
+        a regular gaming session using the new 'Spring 1942' version.</p>
         
         <p>The first thing we noticed was that the company had skimped on how many physical playing
         pieces you get.  Instead of having a big pile of plastic tanks and men, you had a few of them

@@ -21,8 +21,6 @@ if(!isset($KEYWORDS)) {
     <? /* <link rel="stylesheet" href="/css/default.css" type="text/css" /> */ ?>
     <link rel="stylesheet" href="/css/<? echo $TEMPLATE_ID; ?>.css" type="text/css" />
     
-    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>-->
-    
     
     <script src="/distributions/jquery-1.8.2.min.js"></script>
     <script src="/distributions/jquery.xml2json.js"></script>
@@ -39,8 +37,10 @@ var data = {
     files:{nav:'/config/nav.xml'},
     nav:{} // 
 };
+
     </script>
-    
+
+  
     <script src="/js/default.js"></script>
     
 </head>
@@ -55,15 +55,17 @@ var data = {
 }(document, 'script', 'facebook-jssdk'));</script>
 <header>
     
-    <div id="fb_container">
-        <div class="fb-like" data-href="http://ben.delvacchio.com/projects/" data-send="true" data-width="450" data-show-faces="true"></div>
-    </div>
+    
     
     <h1>Ben Del Vacchio</h1>
     
     <nav>
         <ul id="nav_container"></ul>
     </nav>
-
+    <!--
+    <div id="fb_container_outer">
+        <div class="fb-like" data-href="http://ben.delvacchio.com<? echo $_SERVER['PHP_SELF']; ?>" data-send="true" data-width="200" data-show-faces="false"></div>
+    </div>
+    -->
 </header>
 
