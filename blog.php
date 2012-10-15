@@ -6,6 +6,18 @@ include("lib/header.inc"); ?>
 
 <section>
     
+    
+    <article>
+        <h2><time datetime="2012-10-15">October 15, 2012</time></h2>
+        
+        <p>I've started doing development locally.  Time to start playing around with outer
+        containers and pop a few sprites into the nav, and probably throw together a little JS
+        for multi-level navigation.
+        </p>
+    
+    </article>
+    
+    
     <article>
         <h2><time datetime="2012-10-11">October 11, 2012</time></h2>
         
