@@ -1,4 +1,4 @@
-<? 
+<?php 
 
 $PAGE_ID = 'resume';
 $KEYWORDS = 'Ben, Del Vacchio, resume, resume, summary, experience, professional experience, skills, Comcast, xfinity, CommNav, Perfect Order, Versatile, TV Planner, Television Planner, TVP, Manchester, HTML, JavaScript, Adobe Photoshop, Adobe Illustrator, CSS, HTML5, CSS3';
@@ -141,4 +141,4 @@ include("lib/header.inc"); ?>
 
 </section>
 
-<? include('lib/footer.inc'); ?>
+<?php include('lib/footer.inc'); ?>

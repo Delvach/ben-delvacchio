@@ -1,4 +1,4 @@
-<? 
+<?php 
 
 $PAGE_ID = 'projects';
 $KEYWORDS = 'Ben, Del Vacchio, projects';
@@ -90,7 +90,7 @@ $num_images = count($gallery);
     
     <article class="gallery">
 
-<?
+<?php
     
     for($i = 0; $i < $num_images; $i++) {
         echo(
@@ -111,4 +111,4 @@ $num_images = count($gallery);
 
 </section>
 
-<? include('../lib/footer.inc'); ?>
+<?php include('../lib/footer.inc'); ?>

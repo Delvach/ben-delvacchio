@@ -1,4 +1,4 @@
-<? 
+<?php 
 
 $PAGE_ID = 'home';
 $KEYWORDS = 'Ben, Del Vacchio, home';
@@ -29,4 +29,4 @@ include("lib/header.inc"); ?>
 
 </section>
 
-<? include('lib/footer.inc'); ?>
+<?php include('lib/footer.inc'); ?>

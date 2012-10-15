@@ -1,4 +1,4 @@
-<?
+<?php
 if(!isset($PAGE_ID)) {
     $PAGE_ID = 'home';
 }
@@ -17,9 +17,9 @@ if(!isset($KEYWORDS)) {
 <html>
     <head>
     <title>Ben Del Vacchio</title>
-    <meta name="keywords" content="<? echo $KEYWORDS; ?>">
-    <? /* <link rel="stylesheet" href="/css/default.css" type="text/css" /> */ ?>
-    <link rel="stylesheet" href="/css/<? echo $TEMPLATE_ID; ?>.css" type="text/css" />
+    <meta name="keywords" content="<?php echo $KEYWORDS; ?>">
+    <?php /* <link rel="stylesheet" href="/css/default.css" type="text/css" /> */ ?>
+    <link rel="stylesheet" href="/css/<?php echo $TEMPLATE_ID; ?>.css" type="text/css" />
     
     
     <script src="/distributions/jquery-1.8.2.min.js"></script>
@@ -33,7 +33,7 @@ if(!isset($KEYWORDS)) {
     <script>
 // Using a single top-level object to store global variables to keep our namespace tidy
 var data = {
-    page:{id:'<? echo $PAGE_ID; ?>'},
+    page:{id:'<?php echo $PAGE_ID; ?>'},
     files:{nav:'/config/nav.xml'},
     nav:{} // 
 };
@@ -44,7 +44,7 @@ var data = {
     <script src="/js/default.js"></script>
     
 </head>
-<body class="page-<? echo $PAGE_ID; ?>">
+<body class="page-<?php echo $PAGE_ID; ?>">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -64,7 +64,7 @@ var data = {
     </nav>
     <!--
     <div id="fb_container_outer">
-        <div class="fb-like" data-href="http://ben.delvacchio.com<? echo $_SERVER['PHP_SELF']; ?>" data-send="true" data-width="200" data-show-faces="false"></div>
+        <div class="fb-like" data-href="http://ben.delvacchio.com<?php echo $_SERVER['PHP_SELF']; ?>" data-send="true" data-width="200" data-show-faces="false"></div>
     </div>
     -->
 </header>

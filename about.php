@@ -1,4 +1,4 @@
-<? 
+<?php 
 
 $PAGE_ID = 'about';
 $KEYWORDS = 'Ben, Del Vacchio, about, Broomall, Kutztown, Newtown Square, College, High School, Audubon, Oaks, Bike, Biking, Cycling, Kayak, Kayaking, Arduino, Electronics, HTML, JavaScript, CSS, jQuery, XML, git';
@@ -71,4 +71,4 @@ include("lib/header.inc"); ?>
 
 
 
-<? include('lib/footer.inc'); ?>
+<?php include('lib/footer.inc'); ?>

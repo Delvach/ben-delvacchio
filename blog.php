@@ -1,4 +1,4 @@
-<? 
+<?php 
 
 $PAGE_ID = 'blog';
 $KEYWORDS = 'Ben, Del Vacchio, Blog';
@@ -69,4 +69,4 @@ include("lib/header.inc"); ?>
 
 </section>
 
-<? include('lib/footer.inc'); ?>
+<?php include('lib/footer.inc'); ?>
