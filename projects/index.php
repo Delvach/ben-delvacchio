@@ -91,18 +91,17 @@ $num_images = count($gallery);
     <article class="gallery">
 
 <?php
+    $xml=simplexml_load_file('../config/images.xml');
     
-    for($i = 0; $i < $num_images; $i++) {
+    foreach($xml->images->image as $img) {
         echo(
-            "<a href='/images/aaa/" 
-            . $gallery[$i] 
-            . "_full.jpg'><img src='"
-            . "/images/aaa/"
-            . $gallery[$i]
-            . ".jpg' /></a>\n");
-
+            "<a href='" 
+            . $img->url
+            . "'><img src='"
+            . $img->url_thumb
+            . "' /></a>\n");
+    
     }
-
 
 ?>
     

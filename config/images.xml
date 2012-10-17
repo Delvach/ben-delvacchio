@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<xml>
+    <images>
+        <image>
+            <url_thumb>/images/aaa/original01.jpg</url_thumb>
+            <url>/images/aaa/original01_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/original02.jpg</url_thumb>
+            <url>/images/aaa/original02_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/new_board01.jpg</url_thumb>
+            <url>/images/aaa/new_board01_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/new_board02.jpg</url_thumb>
+            <url>/images/aaa/new_board02_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/new_board03.jpg</url_thumb>
+            <url>/images/aaa/new_board03_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/new_board04.jpg</url_thumb>
+            <url>/images/aaa/new_board04_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev01.jpg</url_thumb>
+            <url>/images/aaa/dev01_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev02.jpg</url_thumb>
+            <url>/images/aaa/dev02_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev03.jpg</url_thumb>
+            <url>/images/aaa/dev03_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev04.jpg</url_thumb>
+            <url>/images/aaa/dev04_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev05.jpg</url_thumb>
+            <url>/images/aaa/dev05_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev06.jpg</url_thumb>
+            <url>/images/aaa/dev06_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev07.jpg</url_thumb>
+            <url>/images/aaa/dev07_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev08.jpg</url_thumb>
+            <url>/images/aaa/dev08_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev09.jpg</url_thumb>
+            <url>/images/aaa/dev09_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev10.jpg</url_thumb>
+            <url>/images/aaa/dev10_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev11.jpg</url_thumb>
+            <url>/images/aaa/dev11_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev12.jpg</url_thumb>
+            <url>/images/aaa/dev12_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        <image>
+            <url_thumb>/images/aaa/dev13.jpg</url_thumb>
+            <url>/images/aaa/dev13_full.jpg</url>
+            <caption></caption>
+        </image>
+        
+        
+        
+    </images>
+    
+</xml>

@@ -6,6 +6,13 @@ include("lib/header.inc"); ?>
 
 <section>
     
+    <article>
+        <h2><time datetime="2012-10-17">October 17, 2012</time></h2>
+        
+        <p>Starting to play with a bit more PHP, first server-side XML translation into content.
+        </p>
+    
+    </article>
     
     <article>
         <h2><time datetime="2012-10-15">October 15, 2012</time></h2>
