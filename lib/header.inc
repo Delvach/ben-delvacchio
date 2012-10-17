@@ -45,13 +45,13 @@ var data = {
     
 </head>
 <body class="page-<?php echo $PAGE_ID; ?>">
-
+<!--
 <div id="main-outer">
     <div id="main-inner">
     
     </div>
 </div>
-
+-->
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
